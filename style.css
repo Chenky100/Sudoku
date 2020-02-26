@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+.container{
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.col-9 {
+ align-items: center;   
+}
+.bigTable{
+    border: 0px solid black;
+    height: 600px;
+    width: 600px;
+    padding: 0;
+    position: absolute;
+    right: 10%;
+
+}
+.smallTable{
+    border: 0px solid black;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+.outer{
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+.inner{
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+tr, td{
+    margin: 0px;
+}
+
+
+
+.numInput{
+    width: 67px;
+    height: 70px;
+    border: 0px;
+    padding: 0;
+    font-size: 27px;
+    /* font-weight: bold; */
+    text-align: center;
+    margin: 0;
+}
+input[type=text]{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+
+    border: 0px solid #DDDDDD;
+  }
+   
+  input[type=text]:focus{
+    box-shadow: 0 0 5px rgb(238, 201, 81);
+
+    border: 3px solid rgb(255, 196, 0);
+  }
+  
+
+  button{
+   
+    width: 100%;
+    margin-top: 10px;
+  }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}

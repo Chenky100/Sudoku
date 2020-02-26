@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<header>
+
+    <h2>Made with <i class="fa fa-heart" aria-hidden="true"> by Lior, Chen and Gadi</i></h2>
+</header>
+    
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-1">
+                <div class="row">
+                    <button type="button" class="btn btn-primary" onclick="easy()">Easy</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-primary" onclick="medium()">Medium</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-primary" onclick="hard()">Hard</button>
+                </div>
+            </div>
+            <div class="col-9">
+      
+        <table class="bigTable">
+            <tr>
+                <td class="outer">
+                    <table class="smallTable">
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i00"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i01"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i02"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i10"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i11"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i12"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i20"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i21"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i22"></td>
+                        </tr>
+                    </table>
+
+                </td>
+                <td class="outer">
+                    <table class="smallTable">
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i03"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i04"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i05"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i13"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i14"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i15"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i23"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i24"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i25"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="outer">
+                    <table class="smallTable">
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i06"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i07"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i08"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i16"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i17"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i18"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i26"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i27"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i28"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="outer">
+                    <table class="smallTable">
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i30"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i31"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i32"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i40"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i41"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i42"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i50"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i51"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i52"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="outer">
+                    <table class="smallTable">
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i33"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i34"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i35"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i43"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i44"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i45"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i53"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i54"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i55"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="outer">
+                    <table class="smallTable">
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i36"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i37"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i38"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i46"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i47"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i48"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i56"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i57"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i58"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="outer">
+                    <table class="smallTable">
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i60"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i61"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i62"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i70"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i71"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i72"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i80"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i81"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i82"></td>
+                        </tr>
+                    </table>
+
+                </td>
+                <td class="outer">
+                    <table class="smallTable">
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i63"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i64"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i65"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i73"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i74"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i75"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i83"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i84"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i85"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="outer">
+                    <table class="smallTable">
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i66"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i67"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i68"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i76"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i77"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i78"></td>
+                        </tr>
+                        <tr>
+                            <td class="inner"><input type="number" class="numInput" id="i86"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i87"></td>
+                            <td class="inner"><input type="number" class="numInput" id="i88"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-1">
+
+        <div class="row">
+            <button type="button" class="btn btn-danger" onclick="clearBoard()">Clear</button>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-primary" onclick="check()">Check</button>
+        </div>
+    </div>
+        <!-- <div class="row">
+            <div class="col-2"></div>
+            <div class="col-2">
+                <button id="easy"  class="btn btn-success" onclick="easy()">Easy</button>
+            </div>
+            <div class="col-2">
+                <button id="medium" class="btn btn-warning" onclick="medium()">Medium</button>
+            </div>
+            <div class="col-2">
+                <button id="hard" class="btn btn-danger" onclick="hard()">Hard</button>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3"><button class="btn btn-primary" onclick="clearBoard()">Clear</button> </div>
+            <div class="col-3">        <button class="btn btn-primary" onclick="check()">Check</button>
+            </div>
+        </div> -->
+        
+        <!-- <label id="steps"></label> -->
+
+    </div>
+</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
