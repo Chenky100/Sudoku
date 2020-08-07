@@ -547,6 +547,7 @@ function disableIt() {
             b = j.toString();
             if (document.getElementById(a+b).value != ''){
                 document.getElementById(a+b).disabled = true;
+                document.getElementById(a+b).style.backgroundColor = "rgb(202, 202, 202)";
 
             }
             else{
